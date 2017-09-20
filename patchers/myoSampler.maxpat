@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 93.0, 79.0, 1053.0, 650.0 ],
+		"rect" : [ 93.0, 79.0, 967.0, 650.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,55 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-9",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "myoBioFlex1024AP.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 584.0, 116.0, 262.0, 269.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "live.gain~",
+					"numinlets" : 2,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 41.0, 550.0, 48.0, 136.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 819.0, 79.5, 54.0, 103.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "live.gain~",
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_mmin" : -70.0,
+							"parameter_mmax" : 6.0,
+							"parameter_initial" : [ 0.0 ],
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"showname" : 0,
+					"shownumber" : 0,
+					"varname" : "live.gain~"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-21",
 					"maxclass" : "number",
@@ -70,7 +119,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 202.0, -42.0, 433.0, 47.0 ],
+					"patching_rect" : [ 41.0, -39.0, 433.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 16.5, 20.0, 433.0, 47.0 ],
 					"style" : "",
 					"text" : "MYO sample trigger patch"
 				}
@@ -108,7 +159,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 636.0, 136.0, 150.0, 33.0 ],
+					"patching_rect" : [ 629.0, -15.0, 150.0, 33.0 ],
 					"style" : "",
 					"text" : "the myo info comes in here and is callibrated. "
 				}
@@ -172,7 +223,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 642.0, 203.0, 79.0, 22.0 ],
+					"patching_rect" : [ 635.0, 52.0, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "myoMuseAP"
 				}
@@ -187,19 +238,7 @@
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 41.0, 53.0, 156.0, 22.0 ],
 					"style" : "",
-					"text" : "myoTrigger musc1 300 120"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 636.0, 177.0, 116.0, 22.0 ],
-					"style" : "",
-					"text" : "myoBioFlex1024AP"
+					"text" : "myoTrigger musc1 250 120"
 				}
 
 			}
@@ -229,36 +268,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-4",
-					"maxclass" : "live.gain~",
-					"numinlets" : 2,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "", "float", "list" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 41.0, 550.0, 48.0, 136.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 804.0, 12.5, 72.0, 103.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "live.gain~",
-							"parameter_shortname" : "live.gain~",
-							"parameter_type" : 0,
-							"parameter_mmin" : -70.0,
-							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 4
-						}
-
-					}
-,
-					"showname" : 0,
-					"shownumber" : 0,
-					"varname" : "live.gain~"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -274,7 +283,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 41.0, 361.0, 400.0, 113.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 402.0, 8.0, 397.0, 116.0 ],
+					"presentation_rect" : [ 415.0, 73.0, 397.0, 116.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -296,8 +305,25 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 41.0, 171.0, 400.0, 116.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 8.0, 400.0, 116.0 ],
+					"presentation_rect" : [ 13.0, 73.0, 400.0, 116.0 ],
 					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
+					"id" : "obj-25",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 41.0, -48.0, 488.0, 65.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 13.0, 20.0, 436.5, 47.0 ],
+					"proportion" : 0.39,
+					"style" : ""
 				}
 
 			}
@@ -310,9 +336,27 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 615.0, 122.0, 192.0, 132.0 ],
+					"patching_rect" : [ 584.0, -27.0, 274.0, 440.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -5.0, 2.0, 900.0, 134.0 ],
+					"presentation_rect" : [ 8.0, 13.0, 881.0, 188.0 ],
+					"proportion" : 0.39,
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-23",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 24.0, -48.0, 853.0, 847.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 816.0, 73.0, 60.0, 116.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -434,13 +478,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "myoBioFlex1024AP.maxpat",
-				"bootpath" : "~/Dropbox/myoSampler/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "myoTrigger.maxpat",
 				"bootpath" : "~/Dropbox/myoSampler/patchers",
 				"patcherrelativepath" : ".",
@@ -456,6 +493,13 @@
 			}
 , 			{
 				"name" : "myoMuseAP.maxpat",
+				"bootpath" : "~/Dropbox/myoSampler/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "myoBioFlex1024AP.maxpat",
 				"bootpath" : "~/Dropbox/myoSampler/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
