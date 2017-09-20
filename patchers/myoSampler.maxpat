@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 93.0, 79.0, 976.0, 600.0 ],
+		"rect" : [ 93.0, 79.0, 1053.0, 650.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -272,7 +272,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 41.0, 361.0, 423.0, 126.0 ],
+					"patching_rect" : [ 41.0, 361.0, 400.0, 113.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 402.0, 8.0, 397.0, 116.0 ],
 					"viewvisibility" : 1
@@ -322,7 +322,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
-					"midpoints" : [ 431.5, 304.0, 252.5, 304.0 ],
+					"midpoints" : [ 431.5, 304.0, 241.0, 304.0 ],
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -344,7 +344,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 2 ],
-					"midpoints" : [ 496.5, 304.0, 454.5, 304.0 ],
+					"midpoints" : [ 496.5, 304.0, 431.5, 304.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -366,7 +366,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
-					"midpoints" : [ 454.5, 518.0, 79.5, 518.0 ],
+					"midpoints" : [ 431.5, 518.0, 79.5, 518.0 ],
 					"source" : [ "obj-3", 1 ]
 				}
 
