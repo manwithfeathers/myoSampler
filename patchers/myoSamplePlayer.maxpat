@@ -38,24 +38,10 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-5",
-					"items" : [ "one", ",", "two", ",", "three", ",", "four" ],
-					"maxclass" : "umenu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 558.0, 92.0, 100.0, 22.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"arrow" : 0,
 					"id" : "obj-8",
 					"ignoreclick" : 1,
-					"items" : [ "one", ",", "two", ",", "three", ",", "four" ],
+					"items" : [ "one", ",", "two", ",", "three", ",", "four", ",", "five", ",", "six", ",", "seven", ",", "eight" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
