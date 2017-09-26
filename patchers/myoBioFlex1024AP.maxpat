@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 512.0, 79.0, 513.0, 671.0 ],
+		"rect" : [ 387.0, 79.0, 814.0, 671.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -72,7 +72,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-28",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -885,7 +885,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 824.0, 477.0, 47.0, 27.0 ],
+					"patching_rect" : [ 836.0, 438.0, 47.0, 27.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
 							"data" : [ 5, "obj-34", "umenu", "int", 4, 5, "obj-39", "umenu", "int", 3, 5, "obj-56", "slider", "float", 329.0, 5, "obj-57", "slider", "float", 49.0, 5, "obj-43", "slider", "float", 308.0, 5, "obj-44", "slider", "float", 14.0, 5, "obj-35", "toggle", "int", 1, 5, "obj-183", "slider", "float", 112.0, 5, "obj-51", "umenu", "int", 2, 5, "obj-54", "umenu", "int", 1, 5, "obj-165", "slider", "float", 266.0, 5, "obj-166", "slider", "float", 56.0, 5, "obj-158", "slider", "float", 252.0, 5, "obj-159", "slider", "float", 35.0 ]
@@ -1222,7 +1222,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 52.0, 396.0, 36.0, 19.0 ],
+					"patching_rect" : [ 59.0, 360.0, 36.0, 19.0 ],
 					"style" : "",
 					"text" : "- 512"
 				}
@@ -1491,7 +1491,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 194.0, 57.0, 19.0 ],
+					"patching_rect" : [ 330.0, 161.0, 57.0, 19.0 ],
 					"style" : "",
 					"text" : "r muscenv2"
 				}
@@ -1536,7 +1536,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 140.0, 194.0, 57.0, 19.0 ],
+					"patching_rect" : [ 59.0, 173.0, 57.0, 19.0 ],
 					"style" : "",
 					"text" : "r muscenv1"
 				}
@@ -2362,7 +2362,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
