@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 93.0, 79.0, 967.0, 650.0 ],
+		"rect" : [ 223.0, 166.0, 915.0, 469.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,18 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 763.0, 108.0, 89.0, 22.0 ],
+					"style" : "",
+					"text" : "bitalino_helper"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-210",
 					"maxclass" : "message",
@@ -1333,48 +1345,59 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "myoSamplePlayer.maxpat",
-				"bootpath" : "~/Dropbox/myoSampler/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/myoSampler/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myoFilter.maxpat",
-				"bootpath" : "~/Dropbox/myoSampler/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/myoSampler/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myoTrigger.maxpat",
-				"bootpath" : "~/Dropbox/myoSampler/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/myoSampler/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "resch.maxpat",
-				"bootpath" : "~/Dropbox/myoSampler/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/myoSampler/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myoMuseAP.maxpat",
-				"bootpath" : "~/Dropbox/myoSampler/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/myoSampler/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "buffers.maxpat",
-				"bootpath" : "~/Dropbox/myoSampler/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/myoSampler/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bitalino_helper.maxpat",
+				"bootpath" : "~/Documents/Max 7/Projects/myoSampler/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myo.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ],
