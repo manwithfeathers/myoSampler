@@ -38,7 +38,7 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-<<<<<<< Updated upstream
+
 					"id" : "obj-26",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -73,15 +73,6 @@
 					"patching_rect" : [ 232.0, 492.0, 83.0, 22.0 ],
 					"style" : "",
 					"text" : "r bitalinoEMG"
-=======
-					"id" : "obj-19",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 638.5, 44.0, 81.0, 22.0 ],
-					"style" : "",
-					"text" : "s myoStream"
->>>>>>> Stashed changes
 				}
 
 			}

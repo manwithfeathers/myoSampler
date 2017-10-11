@@ -9,11 +9,7 @@
 			"modernui" : 1
 		}
 ,
-<<<<<<< Updated upstream
-		"rect" : [ 223.0, 166.0, 915.0, 469.0 ],
-=======
-		"rect" : [ 202.0, 84.0, 967.0, 650.0 ],
->>>>>>> Stashed changes
+		"rect" : [ 223.0, 166.0, 1183.0, 700.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1394,6 +1390,14 @@
 			}
 , 			{
 				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.expr.codebox.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.display.mxo",
 				"type" : "iLaX"
 			}
  ],
