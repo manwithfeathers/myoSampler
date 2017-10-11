@@ -90,9 +90,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 539.0, 129.0, 83.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 140.0, 2.0, 83.0, 20.0 ],
+					"presentation_rect" : [ 151.0, 2.0, 83.0, 20.0 ],
 					"style" : "",
-					"text" : "WET / DRY",
+					"text" : "WET ",
 					"textcolor" : [ 0.995859, 1.0, 0.999925, 1.0 ]
 				}
 
