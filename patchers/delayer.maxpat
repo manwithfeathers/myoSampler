@@ -38,12 +38,28 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"annotation" : "feedback",
+					"comment" : "",
+					"hint" : "feedback",
+					"id" : "obj-1",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 500.0, 31.0, 30.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 393.0, 60.0, 82.0, 22.0 ],
+					"patching_rect" : [ 365.0, 57.0, 82.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess 0.5"
 				}
@@ -287,6 +303,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-10", 0 ]
 				}
@@ -382,8 +405,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "quickdel.gendsp",
-				"bootpath" : "~/Dropbox/myoSampler",
-				"patcherrelativepath" : "..",
+				"bootpath" : "~/Dropbox/myoSampler/code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}

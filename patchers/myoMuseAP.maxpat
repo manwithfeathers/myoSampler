@@ -314,7 +314,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 232.0, 492.0, 83.0, 22.0 ],
+					"patching_rect" : [ 222.0, 476.0, 83.0, 22.0 ],
 					"style" : "",
 					"text" : "r bitalinoEMG"
 				}

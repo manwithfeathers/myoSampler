@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 158.0, 79.0, 967.0, 650.0 ],
+		"rect" : [ 49.0, 79.0, 1109.0, 650.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,151 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-62",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 534.0, 41.0, 150.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 534.0, 34.0, 150.0, 33.0 ],
+					"style" : "",
+					"text" : "SAMPLE BANK - MOVEMENT RHODES"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-58",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 45.0, 138.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1023.0, 490.0, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-40",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1142.0, 689.0, 184.0, 22.0 ],
+					"style" : "",
+					"text" : "replace movement_rhodes4.wav"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-44",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "bang" ],
+					"patching_rect" : [ 1142.0, 743.0, 72.0, 22.0 ],
+					"style" : "",
+					"text" : "buffer~ four"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1137.0, 562.0, 184.0, 22.0 ],
+					"style" : "",
+					"text" : "replace movement_rhodes3.wav"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-48",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "bang" ],
+					"patching_rect" : [ 1142.0, 623.0, 79.0, 22.0 ],
+					"style" : "",
+					"text" : "buffer~ three"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-49",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 934.0, 685.0, 184.0, 22.0 ],
+					"style" : "",
+					"text" : "replace movement_rhodes2.wav"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-50",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "bang" ],
+					"patching_rect" : [ 934.0, 739.0, 70.0, 22.0 ],
+					"style" : "",
+					"text" : "buffer~ two"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-52",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 934.0, 562.0, 184.0, 22.0 ],
+					"style" : "",
+					"text" : "replace movement_rhodes1.wav"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-56",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "bang" ],
+					"patching_rect" : [ 934.0, 629.0, 71.0, 22.0 ],
+					"style" : "",
+					"text" : "buffer~ one"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"format" : 6,
 					"id" : "obj-28",
@@ -672,18 +817,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-40",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 562.0, 511.0, 24.0, 24.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-36",
 					"maxclass" : "number",
 					"numinlets" : 1,
@@ -704,7 +837,7 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 126.0, 92.0, 37.0, 22.0 ],
 					"style" : "",
-					"text" : "/ 128"
+					"text" : "/ 256"
 				}
 
 			}
@@ -718,18 +851,6 @@
 					"patching_rect" : [ 126.0, 61.0, 53.0, 22.0 ],
 					"style" : "",
 					"text" : "r accel1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-27",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 562.0, 553.0, 47.0, 22.0 ],
-					"style" : "",
-					"text" : "buffers"
 				}
 
 			}
@@ -1344,6 +1465,42 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"midpoints" : [ 1032.5, 603.0, 1151.5, 603.0 ],
+					"order" : 0,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"midpoints" : [ 1032.5, 539.5, 1146.5, 539.5 ],
+					"order" : 1,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"midpoints" : [ 1032.5, 598.0, 943.5, 598.0 ],
+					"order" : 2,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"midpoints" : [ 1032.5, 536.5, 943.5, 536.5 ],
+					"order" : 3,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
 					"midpoints" : [ 103.75, 994.0, 125.5, 994.0 ],
 					"source" : [ "obj-4", 1 ]
@@ -1359,7 +1516,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-27", 0 ],
+					"destination" : [ "obj-44", 0 ],
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -1394,8 +1551,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
 					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
+					"source" : [ "obj-52", 0 ]
 				}
 
 			}
@@ -1410,6 +1588,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-54", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"source" : [ "obj-58", 0 ]
 				}
 
 			}
@@ -1493,13 +1678,6 @@
 			}
 , 			{
 				"name" : "myoMuseAP.maxpat",
-				"bootpath" : "~/Dropbox/myoSampler/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "buffers.maxpat",
 				"bootpath" : "~/Dropbox/myoSampler/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
