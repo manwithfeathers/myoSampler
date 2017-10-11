@@ -113,7 +113,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1312.0, 497.0, 61.0, 29.0 ],
+					"patching_rect" : [ 1312.0, 497.0, 63.0, 29.0 ],
 					"style" : "",
 					"text" : "zmap 0 1024 0. 1."
 				}
@@ -179,9 +179,9 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1155.0, 270.5, 132.0, 22.0 ],
+					"patching_rect" : [ 1155.0, 270.5, 125.0, 22.0 ],
 					"style" : "",
-					"text" : "scale 100 340 0. 1024."
+					"text" : "scale 80 340 0. 1024."
 				}
 
 			}

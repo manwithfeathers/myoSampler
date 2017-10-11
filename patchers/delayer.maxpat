@@ -38,6 +38,23 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial Italic",
+					"fontsize" : 24.0,
+					"id" : "obj-58",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 544.0, 303.5, 128.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 25.5, 89.5, 128.0, 33.0 ],
+					"style" : "",
+					"text" : "DELAY",
+					"textcolor" : [ 0.995859, 1.0, 0.999925, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"annotation" : "feedback",
 					"comment" : "",
 					"hint" : "feedback",
@@ -294,7 +311,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 294.0, 120.0, 336.0, 98.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.0, -3.5, 216.0, 99.0 ],
+					"presentation_rect" : [ -1.0, -3.5, 212.0, 141.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}

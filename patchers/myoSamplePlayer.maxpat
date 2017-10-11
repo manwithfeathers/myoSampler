@@ -38,6 +38,23 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial Italic",
+					"fontsize" : 24.0,
+					"id" : "obj-58",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 688.0, 300.0, 128.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 114.5, 113.5, 128.0, 33.0 ],
+					"style" : "",
+					"text" : "SAMPLER",
+					"textcolor" : [ 0.995859, 1.0, 0.999925, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"arrow" : 0,
 					"id" : "obj-8",
 					"ignoreclick" : 1,
@@ -255,7 +272,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 425.0, 257.5, 287.0, 92.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -2.0, -1.0, 401.0, 119.0 ],
+					"presentation_rect" : [ -2.0, -1.0, 401.0, 171.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -359,7 +376,26 @@
 			}
  ],
 		"dependency_cache" : [  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "AudioStatus_Menu",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+						"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }
