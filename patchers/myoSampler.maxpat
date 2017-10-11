@@ -9,7 +9,11 @@
 			"modernui" : 1
 		}
 ,
+<<<<<<< Updated upstream
 		"rect" : [ 223.0, 166.0, 915.0, 469.0 ],
+=======
+		"rect" : [ 202.0, 84.0, 967.0, 650.0 ],
+>>>>>>> Stashed changes
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -818,9 +822,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 532.0, 224.0, 53.0, 22.0 ],
+					"patching_rect" : [ 532.0, 208.0, 57.0, 22.0 ],
 					"style" : "",
-					"text" : "r accel1"
+					"text" : "r sample"
 				}
 
 			}
@@ -995,7 +999,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
+					"destination" : [ "obj-3", 2 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -1052,14 +1056,6 @@
 					"destination" : [ "obj-54", 0 ],
 					"order" : 2,
 					"source" : [ "obj-140", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 2 ],
-					"midpoints" : [ 541.5, 351.0, 476.5, 351.0 ],
-					"source" : [ "obj-15", 0 ]
 				}
 
 			}
