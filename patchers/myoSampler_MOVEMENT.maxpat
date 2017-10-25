@@ -73,7 +73,7 @@
 					"patching_rect" : [ 1154.0, 484.5, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 534.0, 34.0, 150.0, 33.0 ],
+					"presentation_rect" : [ 517.0, 27.0, 150.0, 33.0 ],
 					"style" : "",
 					"text" : "SAMPLE BANK - MOVEMENT RHODES"
 				}
