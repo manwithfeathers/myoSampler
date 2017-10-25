@@ -43,7 +43,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 55.0, 126.0, 24.0, 24.0 ],
+					"patching_rect" : [ 48.0, 135.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -72,22 +72,6 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 615.0, 274.0, 50.0, 22.0 ],
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-62",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1154.0, 484.5, 150.0, 33.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 517.0, 27.0, 150.0, 33.0 ],
-					"style" : "",
-					"text" : "SAMPLE BANK - MOVEMENT RHODES"
 				}
 
 			}
@@ -1021,9 +1005,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 777.0, -35.0, 79.0, 22.0 ],
+					"patching_rect" : [ 777.0, -35.0, 58.0, 22.0 ],
 					"style" : "",
-					"text" : "myoMuseAP"
+					"text" : "twoMyos"
 				}
 
 			}
@@ -1765,7 +1749,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "myoMuseAP.maxpat",
+				"name" : "twoMyos.maxpat",
 				"bootpath" : "~/Dropbox/myoSampler/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
