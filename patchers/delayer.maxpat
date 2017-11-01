@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 84.0, 129.0, 814.0, 505.0 ],
+		"rect" : [ 176.0, 215.0, 814.0, 505.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 544.0, 303.5, 128.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 25.5, 89.5, 128.0, 33.0 ],
+					"presentation_rect" : [ 77.5, 111.5, 128.0, 33.0 ],
 					"style" : "",
 					"text" : "DELAY",
 					"textcolor" : [ 0.995859, 1.0, 0.999925, 1.0 ]
@@ -90,7 +90,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 539.0, 129.0, 83.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 151.0, 2.0, 83.0, 20.0 ],
+					"presentation_rect" : [ 192.0, 10.0, 83.0, 20.0 ],
 					"style" : "",
 					"text" : "WET ",
 					"textcolor" : [ 0.995859, 1.0, 0.999925, 1.0 ]
@@ -105,7 +105,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 302.0, 125.0, 83.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 2.0, 83.0, 20.0 ],
+					"presentation_rect" : [ 34.0, 10.0, 83.0, 20.0 ],
 					"style" : "",
 					"text" : "TIME",
 					"textcolor" : [ 0.995859, 1.0, 0.999925, 1.0 ]
@@ -120,7 +120,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 410.0, 129.0, 83.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 63.0, 2.0, 83.0, 20.0 ],
+					"presentation_rect" : [ 96.0, 10.0, 83.0, 20.0 ],
 					"style" : "",
 					"text" : "FEEDBACK",
 					"textcolor" : [ 0.995859, 1.0, 0.999925, 1.0 ]
@@ -141,7 +141,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 549.0, 151.0, 40.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 140.0, 28.0, 56.0, 56.0 ],
+					"presentation_rect" : [ 179.0, 32.0, 75.0, 75.0 ],
 					"size" : 1.0,
 					"style" : "",
 					"thickness" : 100.0
@@ -175,7 +175,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 302.0, 151.0, 40.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 28.0, 56.0, 56.0 ],
+					"presentation_rect" : [ 29.0, 32.0, 75.0, 75.0 ],
 					"size" : 1.0,
 					"style" : "",
 					"thickness" : 100.0
@@ -209,7 +209,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 424.0, 151.0, 40.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 76.5, 28.0, 56.0, 56.0 ],
+					"presentation_rect" : [ 104.0, 32.0, 75.0, 75.0 ],
 					"size" : 1.0,
 					"style" : "",
 					"thickness" : 100.0
@@ -223,9 +223,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 424.0, 249.0, 107.0, 22.0 ],
+					"patching_rect" : [ 424.0, 249.0, 68.0, 22.0 ],
 					"style" : "",
-					"text" : "prepend feedback"
+					"text" : "prepend fb"
 				}
 
 			}
@@ -311,7 +311,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 294.0, 120.0, 336.0, 98.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.0, -3.5, 212.0, 141.0 ],
+					"presentation_rect" : [ -1.0, -3.5, 292.0, 164.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
