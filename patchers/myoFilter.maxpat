@@ -38,6 +38,23 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial Italic",
+					"fontsize" : 24.0,
+					"id" : "obj-6",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 703.0, 315.0, 128.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 12.25, 62.0, 128.0, 33.0 ],
+					"style" : "",
+					"text" : "on",
+					"textcolor" : [ 0.995859, 1.0, 0.999925, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 2,

@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 476.0, 212.0, 150.0, 47.0 ],
+					"style" : "",
+					"text" : "messy patch that populates umenu and loads buffers"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "number",
 					"numinlets" : 1,
@@ -128,7 +141,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 451.0, 296.0, 37.0, 22.0 ],
+					"patching_rect" : [ 801.0, 292.0, 37.0, 22.0 ],
 					"style" : "",
 					"text" : "clear"
 				}
@@ -347,7 +360,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 647.0, 222.0, 73.0, 22.0 ],
+					"patching_rect" : [ 671.5, 262.0, 73.0, 22.0 ],
 					"style" : "",
 					"text" : "relativepath"
 				}
@@ -360,7 +373,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 1109.5, 276.0, 92.0, 22.0 ],
+					"patching_rect" : [ 1022.5, 324.0, 92.0, 22.0 ],
 					"style" : "",
 					"text" : "opendialog fold"
 				}
@@ -637,6 +650,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
+					"midpoints" : [ 679.833333, 225.0, 1032.0, 225.0 ],
 					"source" : [ "obj-5", 2 ]
 				}
 
