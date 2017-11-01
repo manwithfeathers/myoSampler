@@ -900,12 +900,11 @@
 				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 777.0, -35.0, 79.0, 22.0 ],
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 777.0, -35.0, 71.5, 22.0 ],
 					"style" : "",
-					"text" : "myoMuseAP"
+					"text" : "twoMyos"
 				}
 
 			}
@@ -1060,13 +1059,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-211", 0 ],
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-12", 0 ]
 				}
@@ -1083,13 +1075,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-11", 1 ],
-					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -1113,22 +1098,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-195", 0 ],
 					"order" : 3,
-					"source" : [ "obj-140", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
-					"order" : 5,
-					"source" : [ "obj-140", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"order" : 4,
 					"source" : [ "obj-140", 0 ]
 				}
 
@@ -1254,13 +1223,6 @@
 					"destination" : [ "obj-198", 0 ],
 					"order" : 0,
 					"source" : [ "obj-199", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"source" : [ "obj-210", 0 ]
 				}
 
 			}
@@ -1492,7 +1454,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "myoMuseAP.maxpat",
+				"name" : "twoMyos.maxpat",
 				"bootpath" : "~/Dropbox/myoSampler/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
