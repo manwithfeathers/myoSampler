@@ -2,9 +2,9 @@
 	"name" : "myoSampler",
 	"version" : 1,
 	"creationdate" : 3588765720,
-	"modificationdate" : 3590394960,
+	"modificationdate" : 3592984312,
 	"viewrect" : [ 52.0, 69.0, 300.0, 500.0 ],
-	"autoorganize" : 1,
+	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
 	"autolocalize" : 0,
@@ -23,7 +23,19 @@
 
 		}
 ,
+		"code" : 		{
+
+		}
+,
+		"data" : 		{
+
+		}
+,
 		"externals" : 		{
+
+		}
+,
+		"other" : 		{
 
 		}
 
