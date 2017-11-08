@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 476.0, 153.0, 150.0, 74.0 ],
+					"style" : "",
+					"text" : "this patch will take a sample, load it into a buffer, then rename the buffer after the sample for easy ref"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
@@ -71,7 +84,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 328.0, 106.0, 30.0, 30.0 ],
+					"patching_rect" : [ 351.0, 103.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -83,7 +96,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 175.0, 147.0, 50.0, 22.0 ],
+					"patching_rect" : [ 320.0, 249.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -121,7 +134,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 458.0, 314.0, 88.0, 22.0 ],
+					"patching_rect" : [ 463.0, 314.0, 88.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend name"
 				}
@@ -134,7 +147,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 386.0, 404.0, 104.0, 22.0 ],
+					"patching_rect" : [ 386.0, 404.0, 106.0, 22.0 ],
 					"style" : "",
 					"text" : "buffer~ #0buff 2"
 				}
@@ -147,7 +160,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "", "" ],
-					"patching_rect" : [ 395.0, 227.0, 43.0, 22.0 ],
+					"patching_rect" : [ 399.0, 179.0, 43.0, 22.0 ],
 					"style" : "",
 					"text" : "t b s s"
 				}
@@ -162,7 +175,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 395.0, 166.0, 30.0, 30.0 ],
+					"patching_rect" : [ 399.0, 131.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -178,6 +191,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
+					"midpoints" : [ 472.5, 391.5, 395.5, 391.5 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -206,6 +220,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
+					"midpoints" : [ 432.5, 257.0, 472.5, 257.0 ],
 					"source" : [ "obj-2", 2 ]
 				}
 
@@ -213,6 +228,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
+					"midpoints" : [ 420.5, 240.5, 432.5, 240.5 ],
 					"source" : [ "obj-2", 1 ]
 				}
 
@@ -220,6 +236,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
+					"midpoints" : [ 408.5, 224.5, 329.5, 224.5 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
